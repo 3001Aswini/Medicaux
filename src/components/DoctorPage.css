@@ -1,0 +1,71 @@
+.appointment-details {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appointment-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointment-details th, .appointment-details td {
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: left;
+}
+
+.appointment-details th {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.appointment-details td {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.appointment-details tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.appointment-details tr:hover td {
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.patient-name {
+  color: #00bcd4;
+  cursor: pointer;
+}
+
+.patient-name:hover {
+  text-decoration: underline;
+}
+
+.appointment-details h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.appointment-details .status-confirmed {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.appointment-details .status-pending {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.appointment-details .status-cancelled {
+  color: #f44336;
+  font-weight: bold;
+}

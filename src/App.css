@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+.navbar {
+  width: 100%;
+  background: linear-gradient(45deg, #000000, #0000ff);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the navbar is always on top */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+
+}
+
+.nav-logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Highlight color on hover */
+}
+
+.main-content {
+  padding-top: 70px; /* Adjust based on the navbar height to avoid overlap */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-container pre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  white-space: pre-wrap; /* Allows wrapping of text */
+  font-family: inherit; /* Inherits the font family from body */
+  background-color: transparent; /* Make the pre background transparent */
+  border: none; /* Remove any default border */
+  padding: 0; /* Remove any default padding */
+  margin: 0; /* Remove any default margin */
+  height: 500px;
+}
+
+.medicaux-heading {
+  font-size: 4em; /* Adjust the size as needed */
+  font-weight: bold;
+  background: linear-gradient(45deg, #000000, #0000ff); /* Black to blue gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 0;
+}
+
+.medicaux-heading::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 5px;
+  margin: 0.5em auto 0; /* Adjust spacing as needed */
+  background: linear-gradient(45deg, #000000, #0000ff);
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust gap between buttons as needed */
+  margin-top: 40px; /* Space between heading and buttons */
+}
+
+.nav-button {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Set the text color */
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background: linear-gradient(45deg, #000000, #0000ff); /* Black to blue gradient */
+  color: #fff; /* Change text color on hover */
+}
+
+.nav-icon {
+  font-size: 1.5em; /* Adjust icon size as needed */
+  color: #000; /* Set icon color to black */
+  transition: color 0.3s; /* Smooth transition for icon color */
+}
+
+.nav-button:hover .nav-icon {
+  color: #fff; /* Change icon color to white on hover */
+}

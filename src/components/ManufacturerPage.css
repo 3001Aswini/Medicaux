@@ -1,0 +1,83 @@
+/* ManufacturerPage.css */
+
+.file-upload-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.file-upload-label {
+    display: inline-block;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload-label:hover {
+    background-color: #0056b3;
+}
+
+.file-upload-label > svg {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.file-upload-label > span {
+    vertical-align: middle; /* Center text vertically */
+    display: inline-block;
+    margin-left: 5px; /* Space between icon and text */
+}
+
+/* Existing styles continued */
+
+
+/* ManufacturerPage.css */
+
+.manufacturer-page {
+
+    width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.manufacturer-page h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.manufacturer-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.manufacturer-page label {
+    margin-bottom: 5px;
+}
+
+.manufacturer-page input,
+.manufacturer-page button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.manufacturer-page input[type="date"] {
+    width: 90%;
+}
+
+.manufacturer-page button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.manufacturer-page button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,43 @@
+.about-us {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .about-us h2 {
+    color: #333;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    color: #666;
+    font-size: 1.1em;
+  }
+  
+  .about-us ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .about-us li {
+    color: #666;
+  }
+  
+  .about-us a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about-us a:hover {
+    text-decoration: underline;
+  }
+  

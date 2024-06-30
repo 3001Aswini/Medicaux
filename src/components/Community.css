@@ -1,0 +1,63 @@
+.community-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 500px; /* Limit height for scrolling */
+  }
+  
+  .chat-message {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  .message-content {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+  }
+  
+  .message-content p {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .message-time {
+    font-size: 0.8em;
+    color: #999;
+  }
+  
+  .doctor .avatar {
+    background-color: #28a745; /* Green color for doctor avatars */
+  }
+  
+  .patient .avatar {
+    background-color: #dc3545; /* Red color for patient avatars */
+  }
+  
