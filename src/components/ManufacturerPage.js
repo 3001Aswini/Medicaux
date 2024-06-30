@@ -1,32 +1,32 @@
 import React, { useState } from 'react';
-import './ManufacturerPage.css'; // Import your interactive CSS file
-import { signOut } from 'firebase/auth'; // Import signOut from firebase/auth
-import { auth } from '../firebase-config'; // Import your Firebase config
+import './ManufacturerPage.css'; 
+import { signOut } from 'firebase/auth'; 
+import { auth } from '../firebase-config'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate } from 'react-router-dom';
 import { faUpload } from '@fortawesome/free-solid-svg-icons';
 
 const ManufacturerPage = () => {
-    // State for form inputs
+   
     const [doctorName, setDoctorName] = useState('');
     const [medicineName, setMedicineName] = useState('');
     const [appointmentDate, setAppointmentDate] = useState('');
     const [file, setFile] = useState(null);
     const navigate = useNavigate();
 
-    // Handle form submission
+    
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Here you can handle form submission logic (e.g., API calls)
+       
         console.log('Appointment submitted:', { doctorName, medicineName, appointmentDate, file });
-        // Clear form inputs after submission
+      
         setDoctorName('');
         setMedicineName('');
         setAppointmentDate('');
         setFile(null);
     };
 
-    // Handle file upload
+ 
     const handleFileUpload = (event) => {
         const uploadedFile = event.target.files[0];
         setFile(uploadedFile);
