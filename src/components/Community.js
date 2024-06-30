@@ -1,6 +1,5 @@
 import React from 'react';
-import './Community.css'; // Import the CSS file
-
+import './Community.css';
 function CommunityPage() {
   return (
     <div className="community-container">
@@ -29,7 +28,7 @@ function CommunityPage() {
           </div>
         </div>
 
-        {/* Add more messages as needed */}
+    
       </div>
     </div>
   );
