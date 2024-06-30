@@ -68,7 +68,7 @@ const ManufacturerPage = () => {
                     onChange={(e) => setAppointmentDate(e.target.value)}
                     required
                 />
-                {/* File upload input */}
+               
                 <label htmlFor="fileUpload">Upload Product Information:</label>
                 <div className="file-upload-container">
                     <input
