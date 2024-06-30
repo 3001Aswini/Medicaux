@@ -1,6 +1,5 @@
 import React from 'react';
-import './Aboutus.css'; // Import the CSS file
-
+import './Aboutus.css'; 
 function Aboutus() {
   return (
     <div className="about-us">
