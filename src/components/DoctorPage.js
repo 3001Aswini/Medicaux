@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './DoctorPage.css';
-import { signOut } from 'firebase/auth'; // Import signOut from firebase/auth
-import { auth } from '../firebase-config'; // Import your Firebase config
+import { signOut } from 'firebase/auth';
+import { auth } from '../firebase-config'; 
 import PatientHistoryModal from './PatientHistoryModal';
 
 const appointments = [
